@@ -12,6 +12,6 @@ class Circle_area2
     }
     void disp()
     {
-        System.out.print("The area of the circle is "+area);
+        System.out.println(area);
     }
 }

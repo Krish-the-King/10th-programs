@@ -1,3 +1,4 @@
+//WAP to calculate the SI if p=2000, r=3.5 and t=2 using non-interactive input
 class Simple_Interest
 {
     double p,t,r,SI;

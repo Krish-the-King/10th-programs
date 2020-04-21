@@ -1,3 +1,4 @@
+//WAP to calculate the avg marks of a student for scores of 3 subjects using interactive input
 class AVG_MKS2
 {
     int chem1,comp1,maths1;

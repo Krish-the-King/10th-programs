@@ -1,3 +1,4 @@
+//WAP to calculate SI where P=2000, time=2years and rate=2.5%.
 class Simple_Interest_B
 {
     double p,r,t,SI1;

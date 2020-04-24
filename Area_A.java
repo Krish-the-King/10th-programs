@@ -1,4 +1,5 @@
-class Area
+//WAP to calculate area of rectangle where length=10cm and breadth=20cm.
+class Area_A
 {
     int l,b,area;
     void init()
@@ -16,7 +17,7 @@ class Area
     }
     public static void main()
     {
-        Area obj=new Area();
+        Area_A obj=new Area_A();
         obj.init();
         obj.calc();
         obj.disp();

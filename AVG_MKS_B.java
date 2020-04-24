@@ -1,3 +1,4 @@
+//WAP to calculate average marks of three subjects of a student.
 class AVG_MKS_B
 {
     double chem,maths,comp;

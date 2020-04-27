@@ -1,5 +1,5 @@
 //WAP to demonstrate method overloading to accept values of differnt data types and output their squares
-class overloading
+class overloading_A
 {
     void prnsqr(int i)
     {
@@ -19,7 +19,7 @@ class overloading
     }
     public static void main()
     {
-        overloading obj=new overloading();
+        overloading_A obj=new overloading_A();
         obj.prnsqr(4);
         obj.prnsqr(3.6);
         obj.prnsqr(6.5f);

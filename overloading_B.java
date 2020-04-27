@@ -1,6 +1,6 @@
 //design a class to overload a function num_cacl() so follows
 //a) void num_calc(int num, char ch) with one integer argument and one charector argument, computes the square of integer arguement if choice is 's' otherwise finds its cube
-//b) void num_cacl(int a, int b, char ch) with two integer arguements and one charector arguement it computes the profuct of the two integer arguments if ch is p' else adds the integers.
+//b) void num_calc(int a, int b, char ch) with two integer arguements and one charector arguement it computes the product of the two integer arguments if ch is p' else adds the integers.
 class overloading_B
 {
     void num_calc(int num, char ch)

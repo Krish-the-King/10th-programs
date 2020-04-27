@@ -1,7 +1,7 @@
 //WAP to add two numbers through method overloading.
 class ADD
 {
-    void add(long i, long l)
+    void add(int i, int l)
     {
         System.out.println("Adding "+i+" and "+l+" will give "+(i+l));
     }
@@ -20,6 +20,7 @@ class ADD
     public static void main()
     {
         ADD obj=new ADD();
+        obj.add(10,20);
         obj.add(10.9F,19.1F);
         obj.add(10,20.0F);
         obj.add(10.0F,20);

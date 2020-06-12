@@ -1,8 +1,8 @@
-class Simple_Interest_B
+class Simple_Interest_C
 {
     double p,r,t,SI1;
     int SI;
-    void init()
+    Simple_Interest_C()
     {
         p=2000;
         r=2.5;
@@ -19,8 +19,7 @@ class Simple_Interest_B
     }
     public static void main()
     {
-        Simple_Interest_B obj=new Simple_Interest_B();
-        obj.init();
+        Simple_Interest_C obj=new Simple_Interest_C();
         obj.calc();
         obj.disp();
     }

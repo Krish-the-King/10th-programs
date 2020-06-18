@@ -1,6 +1,6 @@
 class Newton
 {
-    double S,u=20,t=20,a=10;
+    double S,u=20,t=60*20,a=10;
     void displacement()
     {
         S=(u*t)+((1/2)*a*t*t);

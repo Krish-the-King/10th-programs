@@ -1,4 +1,3 @@
-//WAP to calc area of circle if r=10.5cm,pi = 3.14 using interactive input
 class Circle_Area_B
 {
     double r,area;

@@ -1,6 +1,6 @@
 class Simple_Interest_C
 {
-    double p,r,t,SI1;
+    double p,r,t;
     int SI;
     Simple_Interest_C()
     {
@@ -10,8 +10,7 @@ class Simple_Interest_C
     }
     void calc()
     {
-        SI1=(p*r*t)/100.0;
-        SI=(int)(SI1);
+        SI=(int)((p*r*t)/100.0);
     }
     void disp()
     {

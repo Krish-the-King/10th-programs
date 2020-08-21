@@ -1,5 +1,5 @@
 import java.util.*;
-class Series3
+class Series1
 {
     int S=0,n,x;
     void init()
@@ -12,15 +12,15 @@ class Series3
     }
     void calc()
     {
-        for(int i=2;i<=n;i+=3)
+        for(int i=0;i<=n;i++)
         {
-            S+=i;
+            S+=(int)Math.pow(x,i);
         }
         System.out.println(S);
     }
     public static void main()
     {
-        Series3 obj=new Series3();
+        Series1 obj=new Series1();
         obj.init();
         obj.calc();
     }

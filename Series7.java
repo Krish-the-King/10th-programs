@@ -1,7 +1,7 @@
 import java.util.*;
-class Series3
+class Series7
 {
-    int S=0,n,x;
+    int S=1,n,x;
     void init()
     {
         Scanner sc=new Scanner(System.in);
@@ -12,15 +12,24 @@ class Series3
     }
     void calc()
     {
-        for(int i=2;i<=n;i+=3)
+        for(int i=1;i<=n;i++)
         {
-            S+=i;
+            S+=(Math.pow(x,i)/fact(i+1));
         }
         System.out.println(S);
     }
+    int fact(int i)
+    {
+        int a=1;
+        for(int j=i;j>0;j--)
+        {
+            a*=j;
+        }
+        return(a);
+    }
     public static void main()
     {
-        Series3 obj=new Series3();
+        Series7 obj=new Series7();
         obj.init();
         obj.calc();
     }
